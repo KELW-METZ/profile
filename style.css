@@ -1,0 +1,102 @@
+body {
+  /*font-family: 'Gugi', cursive;*/
+  background-color: white;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+p {
+  font-size: 15px;
+}
+.container{
+  width: 700px;
+  margin: 10px auto;
+  text-align: center;
+  color: rgb(180, 180, 180);
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+
+}
+
+.container a.btn-red {
+  background-color: #DD5555;
+  padding: 10px 20px;
+  border-radius: 8px;
+  color: white;
+  text-decoration: none;
+
+}
+
+.container a.btn-red:hover {
+  padding: 10px 1px 3px rgba(0,0,0,0.5);
+}
+
+
+.container .btn-red:hover {
+  padding: 10px 1px 3px rgba(0,0,0,0.5);
+}
+
+.container img {
+  width: 200px;
+  border-radius: 50%;
+
+}
+
+.container1 {
+  width: 700px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px auto;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+  text-align: center;
+}
+
+.container1 li {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+}
+
+ul li {
+  display: inline-block;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 40px;
+  color: rgb(180, 180, 180) !important;
+}
+
+ul li i {
+  font-size: 40px;
+  text-decoration: none;
+
+}
+
+
+ul li a {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+a {
+  text-decoration: none;
+}
+
+.fa-facebook-square:before {
+  content: "\f082";
+}
+
+
